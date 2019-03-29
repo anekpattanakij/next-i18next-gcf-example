@@ -1,0 +1,33 @@
+{
+  "name": "-",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "dev": "node local.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node local.js",
+    "offline": "functions deploy front --trigger-http"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "eslint": "^5.12.1",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.16.4",
+    "prettier-eslint": "^8.8.2",
+    "redux-devtools-extension": "^2.13.8"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "i18next": "^15.0.8",
+    "next": "^8.0.3",
+    "next-i18next": "^0.36.5",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
